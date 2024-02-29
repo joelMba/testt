@@ -108,14 +108,14 @@
 <https://w3id.org/def/bm2o#isRelatedServiceProviderOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/bm2o#relatedServiceProvider> .
 <https://w3id.org/def/bm2o#isRelatedServiceProviderOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/core/Core/ServiceProvider> .
 <https://w3id.org/def/bm2o#isRelatedServiceProviderOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://spec.industrialontologies.org/ontology/core/Core/Agreement> .
-<https://w3id.org/def/bm2o#isRelatedServiceProviderOf> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#isRelatedServiceProviderOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a service provider to a specific agreement."@en .
 <https://w3id.org/def/bm2o#isRelatedServiceProviderOf> <http://www.w3.org/2000/01/rdf-schema#label> "is related service provider of"@en .
 # 
 # https://w3id.org/def/bm2o#isRequiredFunctionOf
 <https://w3id.org/def/bm2o#isRequiredFunctionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#isRequiredFunctionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/RequiredFunction> .
 <https://w3id.org/def/bm2o#isRequiredFunctionOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://brickschema.org/schema/1.1/Brick#Equipment> .
-<https://w3id.org/def/bm2o#isRequiredFunctionOf> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#isRequiredFunctionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Links some asset's function to a specific equipment"@en .
 <https://w3id.org/def/bm2o#isRequiredFunctionOf> <http://www.w3.org/2000/01/rdf-schema#label> "is required function of"@en .
 # 
 # https://w3id.org/def/bm2o#participatesTo
@@ -130,49 +130,49 @@
 <https://w3id.org/def/bm2o#relatedAgreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#relatedAgreement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceWorkOrderRecord> .
 <https://w3id.org/def/bm2o#relatedAgreement> <http://www.w3.org/2000/01/rdf-schema#range> <https://spec.industrialontologies.org/ontology/core/Core/Agreement> .
-<https://w3id.org/def/bm2o#relatedAgreement> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#relatedAgreement> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the agreement related to the maintenance work order record. This property establishes a connection between a maintenance work order and the agreement associated with it."@en .
 <https://w3id.org/def/bm2o#relatedAgreement> <http://www.w3.org/2000/01/rdf-schema#label> "related agreement"@en .
 # 
 # https://w3id.org/def/bm2o#relatedCommercialService
 <https://w3id.org/def/bm2o#relatedCommercialService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#relatedCommercialService> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/core/Core/Agreement> .
 <https://w3id.org/def/bm2o#relatedCommercialService> <http://www.w3.org/2000/01/rdf-schema#range> <https://spec.industrialontologies.org/ontology/core/Core/CommercialService> .
-<https://w3id.org/def/bm2o#relatedCommercialService> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#relatedCommercialService> <http://www.w3.org/2000/01/rdf-schema#comment> "This property establishes a connection between an agreement and the commercial service associated with it."@en .
 <https://w3id.org/def/bm2o#relatedCommercialService> <http://www.w3.org/2000/01/rdf-schema#label> "related commercial service"@en .
 # 
 # https://w3id.org/def/bm2o#relatedCustomer
 <https://w3id.org/def/bm2o#relatedCustomer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#relatedCustomer> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/core/Core/Agreement> .
 <https://w3id.org/def/bm2o#relatedCustomer> <http://www.w3.org/2000/01/rdf-schema#range> <https://spec.industrialontologies.org/ontology/core/Core/Customer> .
-<https://w3id.org/def/bm2o#relatedCustomer> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#relatedCustomer> <http://www.w3.org/2000/01/rdf-schema#comment> "This property establishes a connection between an agreement and the customer associated with it."@en .
 <https://w3id.org/def/bm2o#relatedCustomer> <http://www.w3.org/2000/01/rdf-schema#label> "related customer"@en .
 # 
 # https://w3id.org/def/bm2o#relatedEquipment
 <https://w3id.org/def/bm2o#relatedEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#relatedEquipment> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceProcess> .
 <https://w3id.org/def/bm2o#relatedEquipment> <http://www.w3.org/2000/01/rdf-schema#range> <https://brickschema.org/schema/1.1/Brick#Equipment> .
-<https://w3id.org/def/bm2o#relatedEquipment> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#relatedEquipment> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the equipment related to a maintenance process"@en .
 <https://w3id.org/def/bm2o#relatedEquipment> <http://www.w3.org/2000/01/rdf-schema#label> "related equipment"@en .
 # 
 # https://w3id.org/def/bm2o#relatedMaintenanceProcess
 <https://w3id.org/def/bm2o#relatedMaintenanceProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#relatedMaintenanceProcess> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceWorkOrderRecord> .
 <https://w3id.org/def/bm2o#relatedMaintenanceProcess> <http://www.w3.org/2000/01/rdf-schema#range> <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceProcess> .
-<https://w3id.org/def/bm2o#relatedMaintenanceProcess> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#relatedMaintenanceProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a maintenance work order record to the specific maintenance process it is associated with."@en .
 <https://w3id.org/def/bm2o#relatedMaintenanceProcess> <http://www.w3.org/2000/01/rdf-schema#label> "related maintenance process"@en .
 # 
 # https://w3id.org/def/bm2o#relatedServiceLevelAgreement
 <https://w3id.org/def/bm2o#relatedServiceLevelAgreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#relatedServiceLevelAgreement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/core/Core/Agreement> .
 <https://w3id.org/def/bm2o#relatedServiceLevelAgreement> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bm2o#ServiceLevelAgreement> .
-<https://w3id.org/def/bm2o#relatedServiceLevelAgreement> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#relatedServiceLevelAgreement> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the service level agreement related to an agreement"@en .
 <https://w3id.org/def/bm2o#relatedServiceLevelAgreement> <http://www.w3.org/2000/01/rdf-schema#label> "related service level agreement"@en .
 # 
 # https://w3id.org/def/bm2o#relatedServiceProvider
 <https://w3id.org/def/bm2o#relatedServiceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/bm2o#relatedServiceProvider> <http://www.w3.org/2000/01/rdf-schema#domain> <https://spec.industrialontologies.org/ontology/core/Core/Agreement> .
 <https://w3id.org/def/bm2o#relatedServiceProvider> <http://www.w3.org/2000/01/rdf-schema#range> <https://spec.industrialontologies.org/ontology/core/Core/ServiceProvider> .
-<https://w3id.org/def/bm2o#relatedServiceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<https://w3id.org/def/bm2o#relatedServiceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the service provider associated with an agreement. This property links an agreement to the service provider responsible for providing the specified services."@en .
 <https://w3id.org/def/bm2o#relatedServiceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "related service provider"@en .
 # 
 # 

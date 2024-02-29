@@ -118,7 +118,7 @@
                             owl:inverseOf :relatedServiceProvider ;
                             rdfs:domain <https://spec.industrialontologies.org/ontology/core/Core/ServiceProvider> ;
                             rdfs:range <https://spec.industrialontologies.org/ontology/core/Core/Agreement> ;
-                            rdfs:comment ""@en ;
+                            rdfs:comment "Links a service provider to a specific agreement."@en ;
                             rdfs:label "is related service provider of"@en .
 
 
@@ -126,7 +126,7 @@
 :isRequiredFunctionOf rdf:type owl:ObjectProperty ;
                       rdfs:domain <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/RequiredFunction> ;
                       rdfs:range <https://brickschema.org/schema/1.1/Brick#Equipment> ;
-                      rdfs:comment ""@en ;
+                      rdfs:comment "Links some asset's function to a specific equipment"@en ;
                       rdfs:label "is required function of"@en .
 
 
@@ -143,7 +143,7 @@
 :relatedAgreement rdf:type owl:ObjectProperty ;
                   rdfs:domain <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceWorkOrderRecord> ;
                   rdfs:range <https://spec.industrialontologies.org/ontology/core/Core/Agreement> ;
-                  rdfs:comment ""@en ;
+                  rdfs:comment "Specifies the agreement related to the maintenance work order record. This property establishes a connection between a maintenance work order and the agreement associated with it."@en ;
                   rdfs:label "related agreement"@en .
 
 
@@ -151,7 +151,7 @@
 :relatedCommercialService rdf:type owl:ObjectProperty ;
                           rdfs:domain <https://spec.industrialontologies.org/ontology/core/Core/Agreement> ;
                           rdfs:range <https://spec.industrialontologies.org/ontology/core/Core/CommercialService> ;
-                          rdfs:comment ""@en ;
+                          rdfs:comment "This property establishes a connection between an agreement and the commercial service associated with it."@en ;
                           rdfs:label "related commercial service"@en .
 
 
@@ -159,7 +159,7 @@
 :relatedCustomer rdf:type owl:ObjectProperty ;
                  rdfs:domain <https://spec.industrialontologies.org/ontology/core/Core/Agreement> ;
                  rdfs:range <https://spec.industrialontologies.org/ontology/core/Core/Customer> ;
-                 rdfs:comment ""@en ;
+                 rdfs:comment "This property establishes a connection between an agreement and the customer associated with it."@en ;
                  rdfs:label "related customer"@en .
 
 
@@ -167,7 +167,7 @@
 :relatedEquipment rdf:type owl:ObjectProperty ;
                   rdfs:domain <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceProcess> ;
                   rdfs:range <https://brickschema.org/schema/1.1/Brick#Equipment> ;
-                  rdfs:comment ""@en ;
+                  rdfs:comment "Specifies the equipment related to a maintenance process"@en ;
                   rdfs:label "related equipment"@en .
 
 
@@ -175,7 +175,7 @@
 :relatedMaintenanceProcess rdf:type owl:ObjectProperty ;
                            rdfs:domain <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceWorkOrderRecord> ;
                            rdfs:range <https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceProcess> ;
-                           rdfs:comment ""@en ;
+                           rdfs:comment "Links a maintenance work order record to the specific maintenance process it is associated with."@en ;
                            rdfs:label "related maintenance process"@en .
 
 
@@ -183,7 +183,7 @@
 :relatedServiceLevelAgreement rdf:type owl:ObjectProperty ;
                               rdfs:domain <https://spec.industrialontologies.org/ontology/core/Core/Agreement> ;
                               rdfs:range :ServiceLevelAgreement ;
-                              rdfs:comment ""@en ;
+                              rdfs:comment "Specifies the service level agreement related to an agreement"@en ;
                               rdfs:label "related service level agreement"@en .
 
 
@@ -191,7 +191,7 @@
 :relatedServiceProvider rdf:type owl:ObjectProperty ;
                         rdfs:domain <https://spec.industrialontologies.org/ontology/core/Core/Agreement> ;
                         rdfs:range <https://spec.industrialontologies.org/ontology/core/Core/ServiceProvider> ;
-                        rdfs:comment ""@en ;
+                        rdfs:comment "Specifies the service provider associated with an agreement. This property links an agreement to the service provider responsible for providing the specified services."@en ;
                         rdfs:label "related service provider"@en .
 
 
