@@ -189,7 +189,7 @@
         <owl:inverseOf rdf:resource="https://w3id.org/def/bm2o#relatedServiceProvider"/>
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/ServiceProvider"/>
         <rdfs:range rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Agreement"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Links a service provider to a specific agreement.</rdfs:comment>
         <rdfs:label xml:lang="en">is related service provider of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -201,7 +201,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#isRequiredFunctionOf">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/RequiredFunction"/>
         <rdfs:range rdf:resource="https://brickschema.org/schema/1.1/Brick#Equipment"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Links some asset&apos;s function to a specific equipment</rdfs:comment>
         <rdfs:label xml:lang="en">is required function of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -226,7 +226,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#relatedAgreement">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceWorkOrderRecord"/>
         <rdfs:range rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Agreement"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the agreement related to the maintenance work order record. This property establishes a connection between a maintenance work order and the agreement associated with it.</rdfs:comment>
         <rdfs:label xml:lang="en">related agreement</rdfs:label>
     </owl:ObjectProperty>
     
@@ -238,7 +238,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#relatedCommercialService">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Agreement"/>
         <rdfs:range rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/CommercialService"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">This property establishes a connection between an agreement and the commercial service associated with it.</rdfs:comment>
         <rdfs:label xml:lang="en">related commercial service</rdfs:label>
     </owl:ObjectProperty>
     
@@ -250,7 +250,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#relatedCustomer">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Agreement"/>
         <rdfs:range rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Customer"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">This property establishes a connection between an agreement and the customer associated with it.</rdfs:comment>
         <rdfs:label xml:lang="en">related customer</rdfs:label>
     </owl:ObjectProperty>
     
@@ -262,7 +262,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#relatedEquipment">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceProcess"/>
         <rdfs:range rdf:resource="https://brickschema.org/schema/1.1/Brick#Equipment"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the equipment related to a maintenance process</rdfs:comment>
         <rdfs:label xml:lang="en">related equipment</rdfs:label>
     </owl:ObjectProperty>
     
@@ -274,7 +274,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#relatedMaintenanceProcess">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceWorkOrderRecord"/>
         <rdfs:range rdf:resource="https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/MaintenanceProcess"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Links a maintenance work order record to the specific maintenance process it is associated with.</rdfs:comment>
         <rdfs:label xml:lang="en">related maintenance process</rdfs:label>
     </owl:ObjectProperty>
     
@@ -286,7 +286,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#relatedServiceLevelAgreement">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Agreement"/>
         <rdfs:range rdf:resource="https://w3id.org/def/bm2o#ServiceLevelAgreement"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the service level agreement related to an agreement</rdfs:comment>
         <rdfs:label xml:lang="en">related service level agreement</rdfs:label>
     </owl:ObjectProperty>
     
@@ -298,7 +298,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/bm2o#relatedServiceProvider">
         <rdfs:domain rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Agreement"/>
         <rdfs:range rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/ServiceProvider"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the service provider associated with an agreement. This property links an agreement to the service provider responsible for providing the specified services.</rdfs:comment>
         <rdfs:label xml:lang="en">related service provider</rdfs:label>
     </owl:ObjectProperty>
     
