@@ -1,4 +1,7 @@
 [ {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -12,6 +15,9 @@
 }, {
   "@id" : "https://w3id.org/def/bm2o#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by-sa/4.0/"
+  } ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "Alexis Lesage"
   }, {
