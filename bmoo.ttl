@@ -106,7 +106,7 @@
 ###  https://w3id.org/def/bm2o#isRelatedServiceProviderOf
 :isRelatedServiceProviderOf a owl:ObjectProperty ;
     rdfs:label "is related service provider of"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "Links a service provider to a specific agreement."@en ;
     owl:inverseOf :relatedServiceProvider ;
     rdfs:domain iof-core:ServiceProvider ;
     rdfs:range iof-core:Agreement .
@@ -115,7 +115,7 @@
 ###  https://w3id.org/def/bm2o#isRequiredFunctionOf
 :isRequiredFunctionOf a owl:ObjectProperty ;
     rdfs:label "is required function of"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "Links some asset's function to a specific equipment"@en ;
     rdfs:domain iof-mo:RequiredFunction ;
     rdfs:range brick:Equipment .
 
@@ -132,7 +132,7 @@
 ###  https://w3id.org/def/bm2o#relatedAgreement
 :relatedAgreement a owl:ObjectProperty ;
     rdfs:label "related agreement"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "Specifies the agreement related to the maintenance work order record. This property establishes a connection between a maintenance work order and the agreement associated with it."@en ;
     rdfs:domain iof-mo:MaintenanceWorkOrderRecord ;
     rdfs:range iof-core:Agreement .
 
@@ -140,7 +140,7 @@
 ###  https://w3id.org/def/bm2o#relatedCommercialService
 :relatedCommercialService a owl:ObjectProperty ;
     rdfs:label "related commercial service"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "This property establishes a connection between an agreement and the commercial service associated with it."@en ;
     rdfs:domain iof-core:Agreement ;
     rdfs:range iof-core:CommercialService .
 
@@ -148,7 +148,7 @@
 ###  https://w3id.org/def/bm2o#relatedCustomer
 :relatedCustomer a owl:ObjectProperty ;
     rdfs:label "related customer"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "This property establishes a connection between an agreement and the customer associated with it."@en ;
     rdfs:domain iof-core:Agreement ;
     rdfs:range iof-core:Customer .
 
@@ -156,7 +156,7 @@
 ###  https://w3id.org/def/bm2o#relatedEquipment
 :relatedEquipment a owl:ObjectProperty ;
     rdfs:label "related equipment"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "Specifies the equipment related to a maintenance process"@en ;
     rdfs:domain iof-mo:MaintenanceProcess ;
     rdfs:range brick:Equipment .
 
@@ -164,7 +164,7 @@
 ###  https://w3id.org/def/bm2o#relatedMaintenanceProcess
 :relatedMaintenanceProcess a owl:ObjectProperty ;
     rdfs:label "related maintenance process"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "Links a maintenance work order record to the specific maintenance process it is associated with."@en ;
     rdfs:domain iof-mo:MaintenanceWorkOrderRecord ;
     rdfs:range iof-mo:MaintenanceProcess .
 
@@ -172,7 +172,7 @@
 ###  https://w3id.org/def/bm2o#relatedServiceLevelAgreement
 :relatedServiceLevelAgreement a owl:ObjectProperty ;
     rdfs:label "related service level agreement"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "Specifies the service level agreement related to an agreement"@en ;
     rdfs:domain iof-core:Agreement ;
     rdfs:range :ServiceLevelAgreement .
 
@@ -180,7 +180,7 @@
 ###  https://w3id.org/def/bm2o#relatedServiceProvider
 :relatedServiceProvider a owl:ObjectProperty ;
     rdfs:label "related service provider"@en ;
-    rdfs:comment ""@en ;
+    rdfs:comment "Specifies the service provider associated with an agreement. This property links an agreement to the service provider responsible for providing the specified services."@en ;
     rdfs:domain iof-core:Agreement ;
     rdfs:range iof-core:ServiceProvider .
 
