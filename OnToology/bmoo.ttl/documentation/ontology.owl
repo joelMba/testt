@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="https://w3id.org/def/bm2o#"
      xml:base="https://w3id.org/def/bm2o"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -18,6 +19,7 @@
         <owl:imports rdf:resource="https://brickschema.org/schema/1.1/Brick"/>
         <owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/202301/maintenance/MaintenanceReferenceOntology/"/>
         <owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/202301/maintenance/Metadatamaintenance/"/>
+        <ns:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <terms:contributor>Alexis Lesage</terms:contributor>
         <terms:contributor>Arnaud Doniec</terms:contributor>
         <terms:contributor>Jerry Lonlac</terms:contributor>
@@ -42,6 +44,13 @@
      -->
 
 
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
     
 
 

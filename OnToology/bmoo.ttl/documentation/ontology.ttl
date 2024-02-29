@@ -10,6 +10,7 @@
                               owl:imports <https://brickschema.org/schema/1.1/Brick> ,
                                           <https://spec.industrialontologies.org/ontology/202301/maintenance/MaintenanceReferenceOntology/> ,
                                           <https://spec.industrialontologies.org/ontology/202301/maintenance/Metadatamaintenance/> ;
+                              <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-sa/4.0/> ;
                               <http://purl.org/dc/terms/contributor> "Alexis Lesage" ,
                                                                      "Arnaud Doniec" ,
                                                                      "Jerry Lonlac" ,
@@ -25,6 +26,10 @@
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .

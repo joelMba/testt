@@ -2,6 +2,7 @@
 <https://w3id.org/def/bm2o#> <http://www.w3.org/2002/07/owl#imports> <https://brickschema.org/schema/1.1/Brick> .
 <https://w3id.org/def/bm2o#> <http://www.w3.org/2002/07/owl#imports> <https://spec.industrialontologies.org/ontology/202301/maintenance/MaintenanceReferenceOntology/> .
 <https://w3id.org/def/bm2o#> <http://www.w3.org/2002/07/owl#imports> <https://spec.industrialontologies.org/ontology/202301/maintenance/Metadatamaintenance/> .
+<https://w3id.org/def/bm2o#> <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-sa/4.0/> .
 <https://w3id.org/def/bm2o#> <http://purl.org/dc/terms/contributor> "Alexis Lesage" .
 <https://w3id.org/def/bm2o#> <http://purl.org/dc/terms/contributor> "Arnaud Doniec" .
 <https://w3id.org/def/bm2o#> <http://purl.org/dc/terms/contributor> "Jerry Lonlac" .
@@ -21,6 +22,9 @@
 # #
 # #################################################################
 # 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
